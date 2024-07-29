@@ -63,7 +63,7 @@ const Footer = () => {
             src={iconFb}
             alt="Logo"
         
-            className="object-contain"
+            className="object-contain ficon"
           /></Link>
             <Link href={'/'} >
             
@@ -71,7 +71,7 @@ const Footer = () => {
             src={iconX}
             alt="Logo"
       
-            className="object-contain"
+            className="object-contain ficon"
           /></Link>
             <Link href={'/'} >
             
@@ -79,7 +79,7 @@ const Footer = () => {
             src={iconPi}
             alt="Logo"
      
-            className="object-contain"
+            className="object-contain ficon"
           /></Link>
             <Link href={'/'} >
             
@@ -87,7 +87,7 @@ const Footer = () => {
             src={iconIn}
             alt="Logo"
            
-            className="object-contain"
+            className="object-contain ficon"
           /></Link>
           </div>
         </div>
