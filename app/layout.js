@@ -1,7 +1,9 @@
 import '@/assets/styles/global.css'
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/Header'
 
 export const metadata = {
-  title: 'Krysto || Clean, Create, Recycle, Repeat',
+  title: 'NotaPro ||gestion de notes de frais',
   description:
     'KRYSTO est une entreprise de recyclage de plastique en Nouvelle-Calédonie, dédiée à la collecte des déchets plastiques et à la création de produits innovants à partir de plastique recyclé.',
   keywords:
@@ -12,9 +14,9 @@ const MainLayout = ({ children }) => {
   return (
     <html lang="fr">
       <body>
-        <main className="bg-background min-h-screen text-text ">
-          {children}
-        </main>
+        <Header />
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   )
