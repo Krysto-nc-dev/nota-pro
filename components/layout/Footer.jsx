@@ -8,13 +8,13 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="py-16 bg-veryDarkViolet">
+    <footer className="py-16 bg-veryDarkViolet px-6">
         <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start">
         <Image
             src={logo}
             alt="Logo"
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             className="object-contain"
           />
 
@@ -25,7 +25,7 @@ const Footer = () => {
                 <div className="mb-5 font-bold text-gray-200 text-xl capitalize ">
                     Fonctionnalités
                 </div>
-                <div className="flex flex-col items-center space-y-3 md:items-start">
+                <div className="flex flex-col items-center space-y-3 md:items-start text-sm">
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Centralisation des données</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Dashboard intéractif</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Export des données</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
                 <div className="mb-5 font-bold text-gray-200 text-xl capitalize ">
                    Ressources
                 </div>
-                <div className="flex flex-col items-center space-y-3 md:items-start">
+                <div className="flex flex-col items-center space-y-3 md:items-start text-sm">
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Blog</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Developeur</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Support</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="mb-5 font-bold text-gray-200 text-xl capitalize ">
                   L'entreprise
                 </div>
-                <div className="flex flex-col items-center space-y-3 md:items-start">
+                <div className="flex flex-col items-center space-y-3 md:items-start text-sm">
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>A propos</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>L'équipe</Link>
                     <Link href={"/"} className='text-grayishViolet hover:text-cyan capitalize font-bold'>Contact</Link>

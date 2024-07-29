@@ -9,23 +9,24 @@ const Header = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-20">
           {/* logo */}
-
+  <Link  href={"/"} >
           <Image
             src={logo}
             alt="Logo"
             width={100}
             height={100}
             className="object-contain"
-          />
+            />
 
+            </Link>
 
           {/* Left menu */}
           
           
           <div className="hidden lg:flex space-x-8 font-bold font-">
-            <Link href={"/"} className='text-grayishViolet hover:text-veryDarkViolet'>Fonctionnalités</Link>
-            <Link href={"/"} className='text-grayishViolet hover:text-veryDarkViolet'>Tarifs</Link>
-            <Link href={"/"} className='text-grayishViolet hover:text-veryDarkViolet'>A propos</Link>
+            <Link href={"/features"} className='text-grayishViolet hover:text-veryDarkViolet'>Fonctionnalités</Link>
+            <Link href={"/pricing"} className='text-grayishViolet hover:text-veryDarkViolet'>Tarifs</Link>
+            <Link href={"/about"} className='text-grayishViolet hover:text-veryDarkViolet'>A propos</Link>
           </div>
                   </div>
                   {/* Right buttons menu */}
